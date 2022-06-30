@@ -1,0 +1,13 @@
+envs:
+  - name: PORT
+    value: ":8080"
+  - name: MULTIPARTFILEKEY
+    value: "upFile"
+  - name: ROOTFILEDIR
+    value: /home/romik1505
+  - name: DOMAIN
+    value: "localhost:8080"
+    
+secrets:
+  - name: pg-dsn
+    value: postgresql://postgres:1505@localhost:5432/fileserver?sslmode=disable&timezone=UTC
